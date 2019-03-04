@@ -15,7 +15,6 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Runtime güncelleme</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Button title='Uygulama Güncelle' onPress={this.guncelle()}/>
       </View>
     );
